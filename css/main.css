@@ -101,6 +101,8 @@ main{
 
 }
 footer{
+    height: 60px;
+    background:#b3d4fc;
     padding: 10px;
     text-align: center;
 }
