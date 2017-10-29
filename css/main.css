@@ -55,6 +55,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #ccc;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 80%;
+    background: #fff;
+    margin: 10px auto;
+    overflow: auto;
+    border-radius: 5px;
+}
+header#main{
+    padding: 10px;
+    background: #f4f4f4;
+    color: red;
+}
+nav{
+    height: 40px;
+    background: #aaaaaa;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+nav ul{
+    list-style-type:none;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #000000;
+}
+main{
+    padding: 20px;
+
+}
+footer{
+    padding: 10px;
+    text-align: center;
+}
+section#main{
+    width: 70%;
+    float: left;
+}
+aside{
+    width: 20%;
+    float: right;
+}
 
 
 
@@ -74,8 +131,18 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 600px) {
+    section#main{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    aside{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
 }
 
 @media print,
